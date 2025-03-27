@@ -18,6 +18,6 @@ public class Q8 {
 
         list.removeIf(x->x.startsWith("A"));
 
-        System.out.println(list);
+        System.out.println(list.toString().toLowerCase());
     }
 }
